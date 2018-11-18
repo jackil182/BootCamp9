@@ -34,9 +34,6 @@
     font-weight: 900;
 }
 
-/* .menu-item{
-} */
-
 .header-link{
     text-decoration: none;
     color: white;
@@ -353,6 +350,10 @@
     font-family: "Roboto Condensed";
 }
 
+.portfolio-link:hover{
+    font-weight: 400;
+}
+
 .portfolio__item{
     width: 16.66%;
     height: 200px;
@@ -563,6 +564,9 @@
     border: 1px solid #655c80;
     padding: 15px;
     background: transparent;
+}
+
+.newsletter-form::placeholder{
     color: white;
 }
 
@@ -614,13 +618,11 @@
     list-style: none;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
     width: 251px;
     margin-top: 27px;
     height: 45px;
-}
-
-.social-item{
 }
 
 .footer-button{
@@ -651,6 +653,10 @@
 .footer-menu__item-link{
     text-decoration: none;
     color: white;
+}
+
+.footer-menu__item-link:hover{
+    color: rgba(0, 224, 208);
 }
 
 .social-link__img{
