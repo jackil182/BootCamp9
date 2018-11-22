@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.projects-title{
+    margin-top: 82px;
+    text-align: center;
+    font-family: "Raleway";
+    font-weight: 600;
+    font-size: 30px;
+    color: rgba(85, 85, 85);
+}
+
+.projects-subtitle{
+    width: 757px;
+    margin: 24px auto 0;
+    text-align: center;
+    font-family: "Montserrat";
+    font-weight: 300;
+    font-size: 16px;
+    color: rgba(140, 140, 140);
+}
+
+.projects-menu{
+    width: 1172px;
+    margin: 40px auto 0;
+    width: 605px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects-item__link{
+    text-decoration: none;
+    padding: 10px 23px;
+    border: 1px solid #ebebeb;
+    font-family: "Montserrat";
+    font-weight: 300;
+    font-size: 14px;
+    color: rgba(140, 140, 140);
+}
+
+.projects-item__link:hover{
+    background-color: #998675;
+    color: #fff;
+    transition: all 200ms linear;
+}
+
+.gallery-list{
+    width: 1172px;
+    margin: 38px auto 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.gallery-item{
+    background-color: black;
+}
+
+.gallery-item:nth-last-child(-n+3){
+    margin-top: 28px;
+}
+
+.gallery-item:hover .gallery-text{
+    background-color: #362f2d;
+    transition: all 200ms linear;
+}
+
+.gallery-item:hover .gallery-title{
+    color: #fff;
+    transition: all 200ms linear;
+}
+
+.gallery-item:hover .gallery-subtitle{
+    transition: all 200ms linear;
+    color: rgba(199, 178, 153);
+}
+
+.gallery-item:hover .gallery-img{
+    transition: all 200ms linear;
+    opacity: 0.3;
+}
+
+.gallery-item:hover .icon-container{
+    display: flex;
+}
+
+.gallery-item:hover .image-icons{
+    fill: #362f2d;
+    transition: all 200ms linear;
+}
+
+.icon-wrapper{
+    position: relative;
+}
+
+.icon-container{
+    width: 80px;
+    display: none;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.gallery-icons{
+    height: 26px;
+    width: 26px;
+    fill: #fff;
+}
+
+.image-icons{
+    width: 30px;
+    height: 10px;
+    fill: #fbfaf8;
+    position: absolute;
+    bottom: -1px;
+    left: 20px;
+    display: block;
+}
+
+.gallery-icons:hover{
+    fill: #c7b299;
+}
+
+.gallery-img{
+    width: 373px;
+    height: 240px;
+    display: block;
+}
+
+.gallery-text{
+    padding-left: 28px;
+    background-color: #fbfaf8;
+}
+
+.gallery-title{
+    padding-top: 29px;
+    font-family: "Raleway";
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(199, 178, 153);
+}
+
+.gallery-subtitle{
+    margin-top: 14px;
+    padding-bottom: 17px;
+    font-family: "Montserrat";
+    font-weight: 300;
+    font-size: 14px;
+    color: rgba(140, 140, 140);
+}
+
+.projects-button{
+    display: block;
+    margin: 40px auto 78px;
+    width: 170px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #998675;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Raleway";
+    font-weight: 800;
+    font-size: 14px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px 0px rgba(115,99,87,1);
+}
+
+.projects-button:hover{
+    background-color: #c7b299;
+    box-shadow: 0px 3px 5px 0px rgba(115,99,87,1);
+    transition: all 200ms linear;
+}
