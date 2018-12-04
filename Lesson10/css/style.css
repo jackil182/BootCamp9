@@ -1,0 +1,174 @@
+/* dosis-300 - latin */
+@font-face {
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/dosis-v7-latin-300.eot'); /* IE9 Compat Modes */
+    src: local('Dosis Light'), local('Dosis-Light'),
+         url('../fonts/dosis-v7-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/dosis-v7-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/dosis-v7-latin-300.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/dosis-v7-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/dosis-v7-latin-300.svg#Dosis') format('svg'); /* Legacy iOS */
+  }
+  /* dosis-regular - latin */
+  @font-face {
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/dosis-v7-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local('Dosis Regular'), local('Dosis-Regular'),
+         url('../fonts/dosis-v7-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/dosis-v7-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/dosis-v7-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/dosis-v7-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/dosis-v7-latin-regular.svg#Dosis') format('svg'); /* Legacy iOS */
+  }
+  /* dosis-500 - latin */
+  @font-face {
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/dosis-v7-latin-500.eot'); /* IE9 Compat Modes */
+    src: local('Dosis Medium'), local('Dosis-Medium'),
+         url('../fonts/dosis-v7-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/dosis-v7-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/dosis-v7-latin-500.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/dosis-v7-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/dosis-v7-latin-500.svg#Dosis') format('svg'); /* Legacy iOS */
+  }
+
+*{
+    box-sizing: border-box;
+    outline: 1px solid red;
+    font-family: "Dosis";
+    font-weight: 500;
+}
+
+.container{
+    position: relative;
+    padding: 0;
+}
+
+.row{
+    margin: 0;
+}
+
+.header-block{
+    background-color: #223047;
+    padding-top: 14px;
+    padding-bottom:  108px;
+    color: #fff;
+}
+
+.header-logo, .header-sidebar{
+    padding: 0;
+}
+
+.header-menu__list{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0;
+}
+
+.header-menu__link,
+.header-sidebar__link,
+.header-bottom__link{
+    color: #fff;
+}
+
+.header-menu__link:hover,
+.header-sidebar__link:hover,
+.header-bottom__link:hover{
+    text-decoration: none;
+}
+
+.header-sidebar__menu{
+    background-image: url("../img/header-sidebar.png");
+    height: 22px;
+    width: 25px;
+    margin-left: 30px;
+    display: block;
+    padding-top: 0;
+}
+
+.header-sidebar__link{
+    background-color: #00fff1;
+    color: #33507e;
+    padding: 0 35px;
+    border-radius: 7px;
+}
+
+.header-bottom__block{
+    margin: 217px 0 0;
+}
+
+.header-text{
+    margin-top: 50px;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.header-bottom__links{
+    margin-top: 51px;
+}
+
+.header-bottom__link{
+    padding: 14px 25px;
+}
+
+.header-bottom__link:not(:first-child){
+    border: 1px solid #fff;
+    border-radius: 7px;
+}
+
+.header-bottom__link:first-child{
+    color: #33507e;
+    background-color: #00fff1;
+    border-radius: 7px;
+    margin-right: 26px;
+}
+
+.header-large__img{
+    position: absolute;
+    top: 203px;
+    right: 100px;
+}
+
+.section-title{
+    margin-top: 209px;
+    padding: 0;
+    font-size: 30px;
+    text-align: center;
+}
+
+.section-title:after{
+    content: "";
+    display: block;
+    margin: 82px auto 0;
+    width: 97px;
+    height: 4px;
+    background-color: #00fff1;
+}
+
+.section-list{
+    list-style: none;
+    margin-top: 105px;
+}
+
+.section-item:not(:last-child){
+    margin-right: 82px;
+}
+
+.section-item__title{
+    margin-top: 35px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.section-item__text{
+    margin-top: 29px;
+    font-size: 14px;
+    line-height: 2;
+}

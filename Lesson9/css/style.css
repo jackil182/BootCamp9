@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.metricsNaz{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/bg-metricsNaz.png");
+    position: relative;
+    overflow: hidden;
+    height: 121vh;
+}
+
+.metricsNaz::before,
+.metricsNaz::after{
+    content: "";
+    width: 150%;
+    height: 200px;
+    background-color: #fff;
+    position: absolute;
+    left: -50px;
+}
+
+.metricsNaz::before{
+    top: -182px;
+    transform: rotate(-3deg);
+}
+
+.metricsNaz::after{
+    bottom: -23px;
+    transform: rotate(-3deg);
+}
+
+.metricsNaz-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 60%; 
+    margin: 0 auto;
+    padding: 12.2rem 0 21.5rem;
+}
+
+.metricsNaz-item:hover .metricsNaz-icon{
+    border-color: #fff;
+    fill: #f39c12;
+}
+
+.metricsNaz-icon{
+    width: 32px;
+    height: 32px;
+    padding: 70px;
+    fill: #fff;
+    border: 2px solid #f39c12;
+    border-radius: 50%;
+}
+
+.metricsNaz-number{
+    margin-top: 2rem;
+    text-align: center;
+    color: #fff;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 2.8rem;
+}
+
+.metricsNaz-text{
+    text-align: center;
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 1.5rem;
+}
+
+.servicesNaz-top{
+    width: 53%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.servicesNaz-title{
+    border-right: 4px solid #f39c12;
+    padding-right: 1.3rem;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+.servicesNaz-subtitle{
+    padding-left: 1.1rem;
+    text-transform: uppercase;
+}
+
+.servicesNaz-list{
+    margin: 9.44rem auto 0;
+    padding-bottom: 7.5rem;
+    width: 60%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #e6e6e6;
+}
+
+.servicesNaz-item{
+    width: 30%;
+}
+
+.servicesNaz-item:hover .servicesNaz-icon{
+    fill: #fff;
+    background-color: #f39c12;
+}
+
+.servicesNaz-icon{
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin: 0 auto;
+    padding: 2.43rem;
+    border: 2px solid #f39c12;
+    border-radius: 50%;
+}
+
+.servicesNaz-name{
+    margin-top: 1.87rem;
+    text-align: center;
+}
+
+.servicesNaz-text{
+    margin-top: 1.62rem;
+    text-align: center;
+}
+
+.pricingNaz{
+    padding-bottom: 6.25rem;
+}
+
+.pricingNaz-top{
+    width: 60%;
+    margin: 6.5rem auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pricingNaz-info{
+    width: 27%;
+}
+
+.pricingNaz-icon{
+    width: 32px;
+    height: 32px;
+    padding: 2.8rem;
+    border: 2px solid #f39c12;
+    border-radius: 50%;
+}
+
+.pricingNaz-name{
+    margin-top: 2rem;
+}
+
+.pricingNaz-text{
+    margin-top: 1.75rem;
+}
+
+.pricingNaz-table{
+    width: 64%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border-left: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+}
+
+.pricingNaz-column{
+    width: 33.33%;
+}
+
+.pricingNaz-column:hover .pricingNaz-cell:nth-child(even){
+    background-color: #e6e6e6;
+}
+
+.pricingNaz-column:hover .pricingNaz-cell:nth-child(odd){
+    background-color: #f2f2f2;
+}
+
+.pricingNaz-column:hover .pricingNaz-title{
+    background-color:#f39c12;
+    color: #fff;
+}
+
+.pricingNaz-column:hover .pricingNaz-type:after{
+    background-color:#fff;
+}
+
+.pricingNaz-column:hover .pricingNaz-link{
+    background-color: #f39c12;
+    color: #fff;
+}
+
+.pricingNaz-column:hover .pricingNaz-title{
+    box-shadow: 0px -5px 0px 0px #f39c12;
+    border-color: #f39c12;
+}
+
+.pricingNaz-column:hover .last-cell{
+    box-shadow: 0px 7px 0px 0px #e6e6e6;
+}
+
+.pricingNaz-title{
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.middle-collumn{
+    border-left: 1px solid rgba(115, 115, 115, 0.2);
+    border-right: 1px solid rgba(115, 115, 115, 0.2);
+}
+
+.pricingNaz-type{
+    margin-top: 1.75rem;
+    text-transform: uppercase;
+}
+
+.pricingNaz-type:after{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: #f39c12;
+    margin: 0.5rem auto 0;
+}
+
+.pricingNaz-price{
+    margin: 0.5rem 0 1.75rem;
+}
+
+.pricingNaz-cell{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e6e6e6;
+    font-family: "Open Sans";
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: rgba(115, 115, 115); 
+}
+
+.pricingNaz-cell:nth-child(even){
+    background-color: #fafafa;
+}
+
+.pricingNaz-link{
+    padding: 0.8rem 2rem;
+    border: 2px solid #f39c12;    
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "Open Sans";
+    font-weight: 500;
+    font-size: 0.95rem;
+    color: rgba(13, 13, 13);
+}
+
+.pricingNaz-link:hover{
+    /* cursor: pointer; */
+}
+
+.last-cell{
+    padding-top: 2.1rem;
+    padding-bottom: 2.1rem; 
+}
